@@ -1,5 +1,5 @@
 
-Import-Module $PSScriptRoot/CronTab/CronTab.psd1
+Import-Module $PSScriptRoot/CronTab/CronTab.psm1
 
 Write-Host -Foreground Yellow "Get the existing cron jobs"
 Get-CronJob | Out-Host
